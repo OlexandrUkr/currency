@@ -1,6 +1,8 @@
 from django.http import HttpResponse
 
 from currency.models import Rate, ContactUs
+
+
 def list_rates(request):
     qs = Rate.objects.all()
     result = []
