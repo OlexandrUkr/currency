@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Source details
+{% endblock title %}
+
+{% block content %}
+    <table border="1">
+        <caption>Source ({{source.id}}) details</caption>
+        <tr>
+            <th>ID</th>
+            <th>Source URL</th>
+            <th>Name</th>
+            <th>Note</th>
+        </tr>
+        <tr>
+            <td>{{source.id}}</td>
+            <td>{{source.source_url}}</td>
+            <td>{{source.name}}</td>
+            <td>{{source.note}}</td>
+        </tr>
+    </table>
+{% endblock content %}

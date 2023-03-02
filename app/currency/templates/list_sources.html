@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Sources
+{% endblock title %}
+
+{% block content %}
+    <a href="/source/create/">Create Source</a><br><br>
+    <table border="1">
+        <caption>Sources</caption>
+        <tr>
+            <th>ID</th>
+            <th>Source URL</th>
+            <th>Name</th>
+            <th>Details link</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+    {% for source in sources %}
+        <tr bgcolor="{% cycle '#00BFFF' '#FFFF00' %}">
+            <td>{{source.id}}</td>
+            <td>{{source.source_url}}</td>
+            <td>{{source.name}}</td>
+            <td><a href="/source/details/{{ source.id }}/">Source details</a></td>
+            <td><a href="/source/update/{{ source.id }}/">Update Source</a></td>
+            <td><a href="/source/delete/{{ source.id }}/">Delete Source</a></td>
+        </tr>
+    {% endfor %}
+    </table>
+{% endblock content %}
