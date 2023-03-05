@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Message details
+{% endblock title %}
+
+{% block content %}
+    <table border="1">
+        <caption>Message ({{ contactus.id }}) details</caption>
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Subject</th>
+            <th>Message</th>
+        </tr>
+        <tr>
+            <td>{{ contactus.id }}</td>
+            <td>{{ contactus.email_from }}</td>
+            <td>{{ contactus.subject }}</td>
+            <td>{{ contactus.message }}</td>
+        </tr>
+    </table>
+{% endblock content %}
