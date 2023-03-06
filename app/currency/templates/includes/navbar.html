@@ -1,5 +1,6 @@
 <p>
-    <a href="/rate/list/">Rates</a>
-    <a href="/message/list/">Messages</a>
-    <a href="/source/list/">Sources</a>
+    <a href="{% url 'index' %}">Index</a>
+    <a href="{% url 'currency:rate-list' %}">Rates</a>
+    <a href="{% url 'currency:message-list' %}">Messages</a>
+    <a href="{% url 'currency:source-list' %}">Sources</a>
 </p>

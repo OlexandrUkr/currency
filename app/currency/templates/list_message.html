@@ -5,20 +5,25 @@
 {% endblock title %}
 
 {% block content %}
-    <table>
+    <a href="{% url 'currency:message-create' %}">Create Message</a><br><br>
+    <table border="1">
         <caption>Messages</caption>
-        <tr>
+        <tr bgcolor="#a0a0a0">
             <th>ID</th>
             <th>Email</th>
             <th>Subject</th>
-            <th>Message</th>
+            <th>Details link</th>
+            <th>Update</th>
+            <th>Delete</th>
         </tr>
-    {% for message in messages %}
-        <tr>
-            <td>{{message.id}}</td>
-            <td>{{message.email_from}}</td>
-            <td>{{message.subject}}</td>
-            <td>{{message.message}}</td>
+    {% for message in object_list %}
+        <tr bgcolor="{% cycle '#ffffff' '#e9e9e9' %}">
+            <td>{{ message.id }}</td>
+            <td>{{ message.email_from }}</td>
+            <td>{{ message.subject }}</td>
+            <td><a href="{% url 'currency:message-details' message.id %}">Message details</a></td>
+            <td><a href="{% url 'currency:message-update' message.id %}">Update Message</a></td>
+            <td><a href="{% url 'currency:message-delete' message.id %}">Delete Message</a></td>
         </tr>
     {% endfor %}
     </table>

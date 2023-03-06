@@ -5,25 +5,30 @@
 {% endblock title %}
 
 {% block content %}
-    <table>
+    <a href="{% url 'currency:rate-create' %}">Create Rate</a><br><br>
+    <table border="1">
         <caption>Rates</caption>
-        <tr>
+        <tr bgcolor="#a0a0a0">
             <th>ID</th>
             <th>Buy</th>
             <th>Sell</th>
             <th>Currency</th>
             <th>Source</th>
-            <th>Created</th>
+            <th>Details link</th>
+            <th>Update</th>
+            <th>Delete</th>
         </tr>
 
-    {% for rate in rates %}
-        <tr>
-            <td>{{rate.id}}</td>
-            <td>{{rate.buy}}</td>
-            <td>{{rate.sell}}</td>
-            <td>{{rate.currency}}</td>
-            <td>{{rate.source}}</td>
-            <td>{{rate.created}}</td>
+    {% for rate in object_list %}
+        <tr bgcolor="{% cycle '#ffffff' '#e9e9e9' %}">
+            <td>{{ rate.id }}</td>
+            <td>{{ rate.buy }}</td>
+            <td>{{ rate.sell }}</td>
+            <td>{{ rate.currency }}</td>
+            <td>{{ rate.source }}</td>
+            <td><a href="{% url 'currency:rate-details' rate.id %}">Rate details</a></td>
+            <td><a href="{% url 'currency:rate-update' rate.id %}">Update Rate</a></td>
+            <td><a href="{% url 'currency:rate-delete' rate.id %}">Delete Rate</a></td>
         </tr>
     {% endfor %}
     </table>
