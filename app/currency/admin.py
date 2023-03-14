@@ -2,7 +2,7 @@ from import_export.admin import ImportExportModelAdmin
 from django.contrib import admin
 from rangefilter.filters import DateRangeFilter
 
-from currency.models import Rate, ContactUs, Source
+from currency.models import Rate, ContactUs, Source, RequestResponseLog
 
 
 @admin.register(Rate)
@@ -63,4 +63,14 @@ class SourceAdmin(admin.ModelAdmin):
         'source_url',
         'name',
         'note',
+    )
+
+
+@admin.register(RequestResponseLog)
+class RequestResponseLogAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'path',
+        'request_method',
+        'time',
     )
