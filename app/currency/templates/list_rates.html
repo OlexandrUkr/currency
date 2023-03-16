@@ -14,9 +14,13 @@
             <th>Sell</th>
             <th>Currency</th>
             <th>Source</th>
+            {% if request.user.is_authenticated %}
             <th>Details link</th>
+            {% endif %}
+            {% if request.user.is_superuser %}
             <th>Update</th>
             <th>Delete</th>
+            {% endif %}
         </tr>
 
     {% for rate in object_list %}
@@ -26,9 +30,13 @@
             <td>{{ rate.sell }}</td>
             <td>{{ rate.get_currency_display }}</td>
             <td>{{ rate.source }}</td>
+            {% if request.user.is_authenticated %}
             <td><a href="{% url 'currency:rate-details' rate.id %}">Rate details</a></td>
+            {% endif %}
+            {% if request.user.is_superuser %}
             <td><a href="{% url 'currency:rate-update' rate.id %}">Update Rate</a></td>
             <td><a href="{% url 'currency:rate-delete' rate.id %}">Delete Rate</a></td>
+            {% endif %}
         </tr>
     {% endfor %}
     </table>
