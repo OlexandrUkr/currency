@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.contrib.auth import get_user_model
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.urls import reverse_lazy
@@ -25,8 +26,7 @@ class RateCreateView(CreateView):
 
 class RateUpdateView(UserPassesTestMixin, UpdateView):
     def test_func(self):
-        if self.request.user.is_superuser:
-            return True
+        return self.request.user.is_superuser
 
     form_class = RateForm
     template_name = 'rate_update.html'
@@ -61,7 +61,7 @@ class MessageCreateView(CreateView):
 
     def _send_mail(self):
         subject = 'User Contact Us'
-        recipient = 'support@example.com'
+        recipient = settings.DEFAULT_FROM_EMAIL
         message = f'''
             Request from: {self.object.name}
             Reply to email: {self.object.email_from}
