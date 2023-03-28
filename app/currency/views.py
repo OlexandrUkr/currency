@@ -9,7 +9,7 @@ from currency.forms import RateForm, ContactUsForm, SourceForm
 
 
 class RatesListView(ListView):
-    queryset = Rate.objects.all()
+    queryset = Rate.objects.all().select_related('source')
     template_name = 'list_rates.html'
 
 
