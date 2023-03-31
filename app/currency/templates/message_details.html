@@ -5,20 +5,20 @@
 {% endblock title %}
 
 {% block content %}
-    <table border="1">
+    <table class="table">
         <caption>Message ({{ contactus.id }}) details</caption>
         <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Created</th>
-            <th>Email</th>
-            <th>Subject</th>
-            <th>Message</th>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Created</th>
+            <th scope="col">Email</th>
+            <th scope="col">Subject</th>
+            <th scope="col">Message</th>
         </tr>
         <tr>
             <td>{{ contactus.id }}</td>
-            <th>{{ contactus.name }}</th>
-            <th>{{ contactus.created }}</th>
+            <td>{{ contactus.name }}</td>
+            <td>{{ contactus.created }}</td>
             <td>{{ contactus.email_from }}</td>
             <td>{{ contactus.subject }}</td>
             <td>{{ contactus.message }}</td>

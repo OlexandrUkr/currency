@@ -5,15 +5,15 @@
 {% endblock title %}
 
 {% block content %}
-    <table border="1">
+    <table class="table">
         <caption>Rate ({{rate.id}}) details</caption>
         <tr>
-            <th>ID</th>
-            <th>Buy</th>
-            <th>Sell</th>
-            <th>Currency</th>
-            <th>Source</th>
-            <th>Created</th>
+            <th scope="col">ID</th>
+            <th scope="col">Buy</th>
+            <th scope="col">Sell</th>
+            <th scope="col">Currency</th>
+            <th scope="col">Source</th>
+            <th scope="col">Created</th>
         </tr>
         <tr>
             <td>{{ rate.id }}</td>
