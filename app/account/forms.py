@@ -4,6 +4,7 @@ from django import forms
 from django.conf import settings
 from django.contrib.auth import get_user_model
 from django.urls import reverse
+from django.contrib.auth.forms import SetPasswordForm
 
 User = get_user_model()
 
@@ -54,3 +55,14 @@ class UserSignUpForm(forms.ModelForm):
             [self.instance.email],
             fail_silently=False,
         )
+
+
+class UserPasswordChangeForm(SetPasswordForm):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        for field in self.fields:
+            self.fields[field].widget.attrs.update({
+                'class': 'form-control',
+                'autocomplete': 'off'
+            })

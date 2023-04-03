@@ -1,17 +1,25 @@
 {% extends 'base.html' %}
 
+{% load static %}
+
 {% block title %}
     Profile
 {% endblock title %}
 
 {% block content %}
-    Update Profile
-
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Submit</button><br><br>
-        <a href="/password_change">Change password</a><br>
-    </form>
-
+    Update Profile<br>
+    <div class="row">
+        <div class="col-lg-3 col-sm-12">
+            <img src="{{ object.avatar_url }}" width="150" height="150" align="right">
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            {% load crispy_forms_tags %}
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <button type="submit">Submit</button><br><br>
+                <a href="/password_change">Change password</a><br>
+            </form>
+        </div>
+    </div>
 {% endblock content %}

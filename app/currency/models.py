@@ -1,6 +1,11 @@
 from django.db import models
+from django.templatetags.static import static
 
 from currency.choices import RateCurrencyChoices
+
+
+def source_path(instance, filename):
+    return f"sources/{instance.name}/{filename}"
 
 
 class Rate(models.Model):
@@ -32,9 +37,22 @@ class Source(models.Model):
     source_url = models.CharField(max_length=255)
     name = models.CharField(max_length=64)
     note = models.CharField(max_length=255, null=True, blank=True)
+    source_logo = models.FileField(
+        default=None,
+        null=True,
+        blank=True,
+        upload_to=source_path
+    )
 
     def __str__(self):
         return self.name
+
+    @property
+    def source_logo_url(self):
+        if self.source_logo:
+            return self.source_logo.url
+
+        return static('no-image.png')
 
 
 class RequestResponseLog(models.Model):

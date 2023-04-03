@@ -5,26 +5,35 @@
 {% endblock title %}
 
 {% block content %}
-    <a href="{% url 'currency:message-create' %}">Create Message</a><br><br>
-    <table border="1">
-        <caption>Messages</caption>
-        <tr bgcolor="#a0a0a0">
-            <th>ID</th>
-            <th>Email</th>
-            <th>Subject</th>
-            <th>Details link</th>
-            <th>Update</th>
-            <th>Delete</th>
-        </tr>
-    {% for message in object_list %}
-        <tr bgcolor="{% cycle '#ffffff' '#e9e9e9' %}">
-            <td>{{ message.id }}</td>
-            <td>{{ message.email_from }}</td>
-            <td>{{ message.subject }}</td>
-            <td><a href="{% url 'currency:message-details' message.id %}">Message details</a></td>
-            <td><a href="{% url 'currency:message-update' message.id %}">Update Message</a></td>
-            <td><a href="{% url 'currency:message-delete' message.id %}">Delete Message</a></td>
-        </tr>
-    {% endfor %}
-    </table>
+    <a href="{% url 'currency:message-create' %}">Create Message</a><br>
+    <div class="row col-12">
+        <table class="table table-striped">
+            <caption>Messages</caption>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Email</th>
+                <th scope="col">Subject</th>
+                <th scope="col">Details link</th>
+                <th scope="col">Actions</th>
+            </tr>
+        {% for message in object_list %}
+            <tr>
+                <td>{{ message.id }}</td>
+                <td>{{ message.email_from }}</td>
+                <td>{{ message.subject }}</td>
+                <td><a href="{% url 'currency:message-details' message.id %}">Message details</a></td>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                                aria-expanded="false">Actions</button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="{% url 'currency:message-update' message.id %}">Update</a>
+                            <a class="dropdown-item" href="{{% url 'currency:message-delete' message.id %}">Delete</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        {% endfor %}
+        </table>
+    </div>
 {% endblock content %}

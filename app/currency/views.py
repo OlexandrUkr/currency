@@ -1,5 +1,4 @@
 from django.conf import settings
-from django.contrib.auth import get_user_model
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.urls import reverse_lazy
 from django.views.generic import ListView, CreateView, DetailView, UpdateView, DeleteView
@@ -124,16 +123,3 @@ class SourceDeleteView(DeleteView):
     queryset = Source.objects.all()
     template_name = 'source_delete.html'
     success_url = reverse_lazy('currency:source-list')
-
-
-class ProfileView(LoginRequiredMixin, UpdateView):
-    template_name = 'registration/profile.html'
-    success_url = reverse_lazy('index')
-    queryset = get_user_model().objects.all()
-    fields = (
-        'first_name',
-        'last_name'
-    )
-
-    def get_object(self, queryset=None):
-        return self.request.user

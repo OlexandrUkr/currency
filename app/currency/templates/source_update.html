@@ -6,9 +6,10 @@
 
 {% block content %}
     Update Source Form
-    <form method="post">
+    {% load crispy_forms_tags %}
+    <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
-        {{ form.as_p }}
+        {{ form|crispy }}
         <button type="submit">Submit</button>
     </form>
 {% endblock content %}
