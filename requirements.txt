@@ -1,3 +1,4 @@
+Celery
 Django==4.1.6
 django-debug-toolbar
 django-extensions==3.2.1
