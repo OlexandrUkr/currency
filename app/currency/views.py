@@ -1,4 +1,4 @@
-from django.conf import settings
+# from django.conf import settings
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.urls import reverse_lazy
 from django.views.generic import ListView, CreateView, DetailView, UpdateView, DeleteView
@@ -60,7 +60,7 @@ class MessageCreateView(CreateView):
 
     def _send_mail(self):
         subject = 'User Contact Us'
-        recipient = settings.DEFAULT_FROM_EMAIL
+        # recipient = settings.DEFAULT_FROM_EMAIL
         message = f'''
             Request from: {self.object.name}
             Reply to email: {self.object.email_from}
@@ -72,7 +72,7 @@ class MessageCreateView(CreateView):
         0 - 8.59 | 9.00 - 19.00 | 19.01 23.59
            9.00  |    send      | 9.00 next day
         '''
-        from datetime import datetime
+        # from datetime import datetime
         send_mail.apply_async(
             kwargs={'subject': subject, 'message': message},
             # countdown=20
