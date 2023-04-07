@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 
+from celery.schedules import crontab
 from django.urls import reverse_lazy
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -175,3 +176,17 @@ CELERY_BROKER_URL = 'amqp://localhost'
 '''
 amqp, localhost, 5672, guest, guest
 '''
+CELERY_BEAT_SCHEDULE = {
+    'privat': {
+        'task': 'currency.tasks.parse_privatbank',
+        'schedule': crontab(minute='*/15')
+    },
+    'mono': {
+        'task': 'currency.tasks.parse_monobank',
+        'schedule': crontab(minute='*/15')
+    },
+    'finance_ua': {
+        'task': 'currency.tasks.parse_finance_ua',
+        'schedule': crontab(minute='*/15')
+    }
+}

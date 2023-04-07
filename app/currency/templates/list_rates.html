@@ -13,7 +13,7 @@
                 <th scope="col">#</th>
                 <th scope="col">ID</th>
                 <th scope="col">Buy</th>
-                <th scope="col">Sell</th>
+                <th scope="col">Sale</th>
                 <th scope="col">Currency</th>
                 <th scope="col">Source</th>
                 {% if request.user.is_authenticated %}
@@ -29,7 +29,7 @@
                 <td scope="row">{{ forloop.counter }}</td>
                 <td>{{ rate.id }}</td>
                 <td>{{ rate.buy }}</td>
-                <td>{{ rate.sell }}</td>
+                <td>{{ rate.sale }}</td>
                 <td>{{ rate.get_currency_display }}</td>
                 <td>{{ rate.source }}</td>
                 {% if request.user.is_authenticated %}

@@ -15,8 +15,11 @@ class Rate(models.Model):
         default=RateCurrencyChoices.USD
     )
     buy = models.DecimalField(max_digits=6, decimal_places=2)
-    sell = models.DecimalField(max_digits=6, decimal_places=2)
+    sale = models.DecimalField(max_digits=6, decimal_places=2)
     source = models.ForeignKey('currency.Source', on_delete=models.CASCADE)
+
+    class Meta:
+        ordering = ('-created',)
 
     def __str__(self):
         return f'Currency: {self.get_currency_display()}'
@@ -37,6 +40,7 @@ class Source(models.Model):
     source_url = models.CharField(max_length=255)
     name = models.CharField(max_length=64)
     note = models.CharField(max_length=255, null=True, blank=True)
+    code_name = models.CharField(max_length=64, unique=True)
     source_logo = models.FileField(
         default=None,
         null=True,

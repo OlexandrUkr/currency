@@ -6,6 +6,7 @@ ipython
 django-admin-rangefilter
 django-import-export
 django-crispy-forms==2.0
+requests
 
 #flake8
 flake8
