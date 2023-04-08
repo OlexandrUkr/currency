@@ -48,20 +48,12 @@ def parse_privatbank():
             .order_by('-created') \
             .first()
 
-        if hasattr(last_rate, 'pk'):
-            if last_rate.buy != buy or last_rate.sale != sale:
-                Rate.objects.create(
-                    buy=buy,
-                    sale=sale,
-                    currency=available_currency[currency],
-                    source=source
-                )
-        else:
+        if not last_rate or last_rate.buy != buy or last_rate.sale != sale:
             Rate.objects.create(
                 buy=buy,
                 sale=sale,
                 currency=available_currency[currency],
-                source=source
+                source=source,
             )
 
 
@@ -104,15 +96,7 @@ def parse_monobank():
             .order_by('-created') \
             .first()
 
-        if hasattr(last_rate, 'pk'):
-            if last_rate.buy != buy or last_rate.sale != sale:
-                Rate.objects.create(
-                    buy=buy,
-                    sale=sale,
-                    currency=available_currency[currency],
-                    source=source,
-                )
-        else:
+        if not last_rate or last_rate.buy != buy or last_rate.sale != sale:
             Rate.objects.create(
                 buy=buy,
                 sale=sale,
@@ -182,15 +166,7 @@ def parse_finance_ua():
             .order_by('-created') \
             .first()
 
-        if hasattr(last_rate, 'pk'):
-            if last_rate.buy != buy or last_rate.sale != sale:
-                Rate.objects.create(
-                    buy=buy,
-                    sale=sale,
-                    currency=currency,
-                    source=source,
-                )
-        else:
+        if not last_rate or last_rate.buy != buy or last_rate.sale != sale:
             Rate.objects.create(
                 buy=buy,
                 sale=sale,
@@ -210,15 +186,7 @@ def parse_finance_ua():
             .order_by('-created') \
             .first()
 
-        if hasattr(last_rate, 'pk'):
-            if last_rate.buy != buy or last_rate.sale != sale:
-                Rate.objects.create(
-                    buy=buy,
-                    sale=sale,
-                    currency=currency,
-                    source=source,
-                )
-        else:
+        if not last_rate or last_rate.buy != buy or last_rate.sale != sale:
             Rate.objects.create(
                 buy=buy,
                 sale=sale,
