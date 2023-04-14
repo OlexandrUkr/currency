@@ -1,15 +1,25 @@
-# from django.conf import settings
+from django_filters.views import FilterView
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.urls import reverse_lazy
-from django.views.generic import ListView, CreateView, DetailView, UpdateView, DeleteView
+from django.views.generic import CreateView, DetailView, UpdateView, DeleteView
 
+from currency.filters import RateFilter, ContactUsFilter, SourceFilter
 from currency.models import Rate, ContactUs, Source
 from currency.forms import RateForm, ContactUsForm, SourceForm
 
 
-class RatesListView(ListView):
+class RatesListView(FilterView):
     queryset = Rate.objects.all().select_related('source')
     template_name = 'list_rates.html'
+    paginate_by = 7
+    filterset_class = RateFilter
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['filter_pagination'] = '&'.join(
+            f'{key}={value}' for key, value in self.request.GET.items() if key != 'page'
+        )
+        return context
 
 
 class RateDetailView(LoginRequiredMixin, DetailView):
@@ -43,9 +53,18 @@ class RateDeleteView(UserPassesTestMixin, DeleteView):
     success_url = reverse_lazy('currency:rate-list')
 
 
-class MessagesListView(ListView):
+class MessagesListView(FilterView):
     queryset = ContactUs.objects.all()
     template_name = 'list_message.html'
+    paginate_by = 10
+    filterset_class = ContactUsFilter
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['filter_pagination'] = '&'.join(
+            f'{key}={value}' for key, value in self.request.GET.items() if key != 'page'
+        )
+        return context
 
 
 class MessageDetailView(DetailView):
@@ -98,9 +117,18 @@ class MessageDeleteView(DeleteView):
     success_url = reverse_lazy('currency:message-list')
 
 
-class SourcesListView(ListView):
+class SourcesListView(FilterView):
     template_name = 'list_sources.html'
     queryset = Source.objects.all()
+    paginate_by = 7
+    filterset_class = SourceFilter
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['filter_pagination'] = '&'.join(
+            f'{key}={value}' for key, value in self.request.GET.items() if key != 'page'
+        )
+        return context
 
 
 class SourceDetailView(DetailView):

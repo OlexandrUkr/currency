@@ -6,6 +6,10 @@
 
 {% block content %}
     <a href="{% url 'currency:message-create' %}">Create Message</a><br>
+    <form method="get">
+        {{ filter.form.as_table }}
+        <button type="submit" class="btn btn-dark">Search rates</button>
+    </form><br>
     <div class="row col-12">
         <table class="table table-striped">
             <caption>Messages</caption>
@@ -16,7 +20,7 @@
                 <th scope="col">Details link</th>
                 <th scope="col">Actions</th>
             </tr>
-        {% for message in object_list %}
+        {% for message in page_obj %}
             <tr>
                 <td>{{ message.id }}</td>
                 <td>{{ message.email_from }}</td>
@@ -36,4 +40,7 @@
         {% endfor %}
         </table>
     </div>
+
+    {% include 'includes/pagination.html' %}
+
 {% endblock content %}

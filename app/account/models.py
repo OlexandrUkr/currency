@@ -15,6 +15,12 @@ class User(AbstractUser):
         blank=True,
         upload_to=avatar_path
     )
+    phone = models.CharField(
+        max_length=64,
+        unique=True,
+        null=True,
+        blank=True
+    )
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = []

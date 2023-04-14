@@ -6,6 +6,10 @@
 
 {% block content %}
     <a href="{% url 'currency:source-create' %}">Create Source</a><br>
+    <form method="get">
+        {{ filter.form.as_table }}
+        <button type="submit" class="btn btn-dark">Search</button>
+    </form><br>
     <div class="row col-12">
         <table class="table table-striped">
             <caption>Sources</caption>
@@ -17,7 +21,7 @@
                 <th>Details link</th>
                 <th>Actions</th>
             </tr>
-        {% for source in object_list %}
+        {% for source in page_obj %}
             <tr bgcolor="{% cycle '#ffffff' '#e9e9e9' %}">
                 <td>{{ source.id }}</td>
                 <td>{{ source.source_url }}</td>
@@ -40,4 +44,7 @@
         {% endfor %}
         </table>
     </div>
+
+    {% include 'includes/pagination.html' %}
+
 {% endblock content %}
