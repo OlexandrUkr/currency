@@ -7,7 +7,10 @@ class RateFilter(django_filters.FilterSet):
 
     class Meta:
         model = Rate
-        fields = ['buy', 'sale', 'source']
+        fields = {
+            'buy': ('gt', 'gte', 'lt', 'lte', 'exact'),
+            'sale': ('gt', 'gte', 'lt', 'lte', 'exact'),
+        }
 
 
 class SourceFilter(django_filters.FilterSet):
@@ -21,4 +24,4 @@ class ContactUsFilter(django_filters.FilterSet):
 
     class Meta:
         model = ContactUs
-        fields = ['name', 'email_from', 'subject']
+        fields = ['id', 'created', 'name', 'email_from', 'subject']
