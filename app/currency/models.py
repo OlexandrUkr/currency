@@ -32,6 +32,9 @@ class ContactUs(models.Model):
     subject = models.CharField(max_length=50)
     message = models.CharField(max_length=255)
 
+    class Meta:
+        ordering = ('-created',)
+
     def __str__(self):
         return f'Email from: {self.email_from}'
 

@@ -1,5 +1,6 @@
 Celery
 Django==4.1.6
+djangorestframework
 django-debug-toolbar
 django-extensions==3.2.1
 ipython
@@ -8,6 +9,8 @@ django-import-export
 django-crispy-forms==2.0
 requests
 django-filter
+djangorestframework-simplejwt
+drf-yasg
 
 #flake8
 flake8
