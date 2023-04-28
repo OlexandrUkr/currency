@@ -1,0 +1,4534 @@
+[
+  {
+    "model": "currency.rate",
+    "pk": 71,
+    "fields": {
+      "created": "2023-04-07T10:45:04.222Z",
+      "currency": 2,
+      "buy": "36.65",
+      "sale": "37.44",
+      "source": 37
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 72,
+    "fields": {
+      "created": "2023-04-07T10:45:04.239Z",
+      "currency": 1,
+      "buy": "39.91",
+      "sale": "41.49",
+      "source": 38
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 73,
+    "fields": {
+      "created": "2023-04-07T10:45:04.246Z",
+      "currency": 1,
+      "buy": "40.00",
+      "sale": "41.10",
+      "source": 37
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 74,
+    "fields": {
+      "created": "2023-04-07T10:45:04.248Z",
+      "currency": 2,
+      "buy": "36.57",
+      "sale": "37.45",
+      "source": 38
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 75,
+    "fields": {
+      "created": "2023-04-07T10:45:04.692Z",
+      "currency": 2,
+      "buy": "36.67",
+      "sale": "37.56",
+      "source": 36
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 76,
+    "fields": {
+      "created": "2023-04-07T10:45:04.698Z",
+      "currency": 1,
+      "buy": "39.90",
+      "sale": "41.06",
+      "source": 36
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 77,
+    "fields": {
+      "created": "2023-04-07T19:00:27.230Z",
+      "currency": 5,
+      "buy": "33.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 78,
+    "fields": {
+      "created": "2023-04-07T19:00:27.234Z",
+      "currency": 4,
+      "buy": "31.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 79,
+    "fields": {
+      "created": "2023-04-07T19:00:27.237Z",
+      "currency": 5,
+      "buy": "36.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 80,
+    "fields": {
+      "created": "2023-04-07T19:00:27.239Z",
+      "currency": 1,
+      "buy": "35.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 81,
+    "fields": {
+      "created": "2023-04-07T19:00:27.243Z",
+      "currency": 3,
+      "buy": "33.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 82,
+    "fields": {
+      "created": "2023-04-07T19:00:27.245Z",
+      "currency": 3,
+      "buy": "36.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 83,
+    "fields": {
+      "created": "2023-04-07T19:00:27.248Z",
+      "currency": 3,
+      "buy": "33.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 84,
+    "fields": {
+      "created": "2023-04-07T19:00:27.251Z",
+      "currency": 3,
+      "buy": "31.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 85,
+    "fields": {
+      "created": "2023-04-07T19:00:27.253Z",
+      "currency": 4,
+      "buy": "30.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 86,
+    "fields": {
+      "created": "2023-04-07T19:00:27.255Z",
+      "currency": 4,
+      "buy": "35.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 87,
+    "fields": {
+      "created": "2023-04-07T19:00:27.258Z",
+      "currency": 5,
+      "buy": "34.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 88,
+    "fields": {
+      "created": "2023-04-07T19:00:27.260Z",
+      "currency": 1,
+      "buy": "30.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 89,
+    "fields": {
+      "created": "2023-04-07T19:00:27.262Z",
+      "currency": 4,
+      "buy": "37.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 90,
+    "fields": {
+      "created": "2023-04-07T19:00:27.265Z",
+      "currency": 4,
+      "buy": "32.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 91,
+    "fields": {
+      "created": "2023-04-07T19:00:27.268Z",
+      "currency": 5,
+      "buy": "31.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 92,
+    "fields": {
+      "created": "2023-04-07T19:00:27.270Z",
+      "currency": 5,
+      "buy": "39.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 93,
+    "fields": {
+      "created": "2023-04-07T19:00:27.273Z",
+      "currency": 5,
+      "buy": "32.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 94,
+    "fields": {
+      "created": "2023-04-07T19:00:27.275Z",
+      "currency": 4,
+      "buy": "37.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 95,
+    "fields": {
+      "created": "2023-04-07T19:00:27.279Z",
+      "currency": 3,
+      "buy": "37.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 96,
+    "fields": {
+      "created": "2023-04-07T19:00:27.281Z",
+      "currency": 2,
+      "buy": "37.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 97,
+    "fields": {
+      "created": "2023-04-07T19:00:27.284Z",
+      "currency": 4,
+      "buy": "33.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 98,
+    "fields": {
+      "created": "2023-04-07T19:00:27.287Z",
+      "currency": 3,
+      "buy": "37.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 99,
+    "fields": {
+      "created": "2023-04-07T19:00:27.290Z",
+      "currency": 1,
+      "buy": "39.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 100,
+    "fields": {
+      "created": "2023-04-07T19:00:27.292Z",
+      "currency": 5,
+      "buy": "30.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 101,
+    "fields": {
+      "created": "2023-04-07T19:00:27.294Z",
+      "currency": 1,
+      "buy": "33.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 102,
+    "fields": {
+      "created": "2023-04-07T19:00:27.296Z",
+      "currency": 3,
+      "buy": "37.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 103,
+    "fields": {
+      "created": "2023-04-07T19:00:27.298Z",
+      "currency": 5,
+      "buy": "31.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 104,
+    "fields": {
+      "created": "2023-04-07T19:00:27.299Z",
+      "currency": 5,
+      "buy": "34.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 105,
+    "fields": {
+      "created": "2023-04-07T19:00:27.301Z",
+      "currency": 1,
+      "buy": "37.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 106,
+    "fields": {
+      "created": "2023-04-07T19:00:27.303Z",
+      "currency": 2,
+      "buy": "31.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 107,
+    "fields": {
+      "created": "2023-04-07T19:00:27.305Z",
+      "currency": 3,
+      "buy": "30.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 108,
+    "fields": {
+      "created": "2023-04-07T19:00:27.307Z",
+      "currency": 4,
+      "buy": "40.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 109,
+    "fields": {
+      "created": "2023-04-07T19:00:27.309Z",
+      "currency": 5,
+      "buy": "36.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 110,
+    "fields": {
+      "created": "2023-04-07T19:00:27.311Z",
+      "currency": 1,
+      "buy": "34.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 111,
+    "fields": {
+      "created": "2023-04-07T19:00:27.314Z",
+      "currency": 3,
+      "buy": "35.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 112,
+    "fields": {
+      "created": "2023-04-07T19:00:27.317Z",
+      "currency": 4,
+      "buy": "34.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 113,
+    "fields": {
+      "created": "2023-04-07T19:00:27.320Z",
+      "currency": 3,
+      "buy": "35.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 114,
+    "fields": {
+      "created": "2023-04-07T19:00:27.322Z",
+      "currency": 4,
+      "buy": "40.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 115,
+    "fields": {
+      "created": "2023-04-07T19:00:27.325Z",
+      "currency": 4,
+      "buy": "30.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 116,
+    "fields": {
+      "created": "2023-04-07T19:00:27.328Z",
+      "currency": 4,
+      "buy": "35.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 117,
+    "fields": {
+      "created": "2023-04-07T19:00:27.330Z",
+      "currency": 2,
+      "buy": "30.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 118,
+    "fields": {
+      "created": "2023-04-07T19:00:27.333Z",
+      "currency": 4,
+      "buy": "37.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 119,
+    "fields": {
+      "created": "2023-04-07T19:00:27.336Z",
+      "currency": 3,
+      "buy": "37.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 120,
+    "fields": {
+      "created": "2023-04-07T19:00:27.338Z",
+      "currency": 2,
+      "buy": "40.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 121,
+    "fields": {
+      "created": "2023-04-07T19:00:27.341Z",
+      "currency": 2,
+      "buy": "30.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 122,
+    "fields": {
+      "created": "2023-04-07T19:00:27.344Z",
+      "currency": 3,
+      "buy": "39.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 123,
+    "fields": {
+      "created": "2023-04-07T19:00:27.346Z",
+      "currency": 1,
+      "buy": "34.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 124,
+    "fields": {
+      "created": "2023-04-07T19:00:27.349Z",
+      "currency": 4,
+      "buy": "30.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 125,
+    "fields": {
+      "created": "2023-04-07T19:00:27.351Z",
+      "currency": 4,
+      "buy": "32.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 126,
+    "fields": {
+      "created": "2023-04-07T19:00:27.354Z",
+      "currency": 4,
+      "buy": "30.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 127,
+    "fields": {
+      "created": "2023-04-07T19:00:27.357Z",
+      "currency": 4,
+      "buy": "37.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 128,
+    "fields": {
+      "created": "2023-04-07T19:00:27.359Z",
+      "currency": 1,
+      "buy": "40.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 129,
+    "fields": {
+      "created": "2023-04-07T19:00:27.362Z",
+      "currency": 1,
+      "buy": "40.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 130,
+    "fields": {
+      "created": "2023-04-07T19:00:27.364Z",
+      "currency": 2,
+      "buy": "40.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 131,
+    "fields": {
+      "created": "2023-04-07T19:00:27.367Z",
+      "currency": 1,
+      "buy": "35.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 132,
+    "fields": {
+      "created": "2023-04-07T19:00:27.369Z",
+      "currency": 2,
+      "buy": "36.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 133,
+    "fields": {
+      "created": "2023-04-07T19:00:27.372Z",
+      "currency": 2,
+      "buy": "39.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 134,
+    "fields": {
+      "created": "2023-04-07T19:00:27.374Z",
+      "currency": 2,
+      "buy": "30.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 135,
+    "fields": {
+      "created": "2023-04-07T19:00:27.377Z",
+      "currency": 5,
+      "buy": "30.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 136,
+    "fields": {
+      "created": "2023-04-07T19:00:27.380Z",
+      "currency": 5,
+      "buy": "40.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 137,
+    "fields": {
+      "created": "2023-04-07T19:00:27.383Z",
+      "currency": 4,
+      "buy": "36.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 138,
+    "fields": {
+      "created": "2023-04-07T19:00:27.386Z",
+      "currency": 1,
+      "buy": "30.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 139,
+    "fields": {
+      "created": "2023-04-07T19:00:27.388Z",
+      "currency": 1,
+      "buy": "30.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 140,
+    "fields": {
+      "created": "2023-04-07T19:00:27.391Z",
+      "currency": 5,
+      "buy": "31.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 141,
+    "fields": {
+      "created": "2023-04-07T19:00:27.393Z",
+      "currency": 3,
+      "buy": "36.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 142,
+    "fields": {
+      "created": "2023-04-07T19:00:27.395Z",
+      "currency": 4,
+      "buy": "33.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 143,
+    "fields": {
+      "created": "2023-04-07T19:00:27.397Z",
+      "currency": 1,
+      "buy": "32.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 144,
+    "fields": {
+      "created": "2023-04-07T19:00:27.400Z",
+      "currency": 5,
+      "buy": "35.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 145,
+    "fields": {
+      "created": "2023-04-07T19:00:27.402Z",
+      "currency": 4,
+      "buy": "39.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 146,
+    "fields": {
+      "created": "2023-04-07T19:00:27.404Z",
+      "currency": 2,
+      "buy": "32.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 147,
+    "fields": {
+      "created": "2023-04-07T19:00:27.407Z",
+      "currency": 4,
+      "buy": "39.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 148,
+    "fields": {
+      "created": "2023-04-07T19:00:27.410Z",
+      "currency": 2,
+      "buy": "37.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 149,
+    "fields": {
+      "created": "2023-04-07T19:00:27.413Z",
+      "currency": 1,
+      "buy": "40.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 150,
+    "fields": {
+      "created": "2023-04-07T19:00:27.416Z",
+      "currency": 3,
+      "buy": "33.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 151,
+    "fields": {
+      "created": "2023-04-07T19:00:27.418Z",
+      "currency": 1,
+      "buy": "36.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 152,
+    "fields": {
+      "created": "2023-04-07T19:00:27.421Z",
+      "currency": 5,
+      "buy": "37.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 153,
+    "fields": {
+      "created": "2023-04-07T19:00:27.424Z",
+      "currency": 2,
+      "buy": "38.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 154,
+    "fields": {
+      "created": "2023-04-07T19:00:27.426Z",
+      "currency": 1,
+      "buy": "32.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 155,
+    "fields": {
+      "created": "2023-04-07T19:00:27.429Z",
+      "currency": 4,
+      "buy": "38.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 156,
+    "fields": {
+      "created": "2023-04-07T19:00:27.431Z",
+      "currency": 3,
+      "buy": "37.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 157,
+    "fields": {
+      "created": "2023-04-07T19:00:27.434Z",
+      "currency": 4,
+      "buy": "33.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 158,
+    "fields": {
+      "created": "2023-04-07T19:00:27.436Z",
+      "currency": 2,
+      "buy": "35.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 159,
+    "fields": {
+      "created": "2023-04-07T19:00:27.438Z",
+      "currency": 5,
+      "buy": "39.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 160,
+    "fields": {
+      "created": "2023-04-07T19:00:27.440Z",
+      "currency": 5,
+      "buy": "30.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 161,
+    "fields": {
+      "created": "2023-04-07T19:00:27.442Z",
+      "currency": 5,
+      "buy": "32.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 162,
+    "fields": {
+      "created": "2023-04-07T19:00:27.445Z",
+      "currency": 4,
+      "buy": "37.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 163,
+    "fields": {
+      "created": "2023-04-07T19:00:27.448Z",
+      "currency": 2,
+      "buy": "32.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 164,
+    "fields": {
+      "created": "2023-04-07T19:00:27.451Z",
+      "currency": 5,
+      "buy": "35.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 165,
+    "fields": {
+      "created": "2023-04-07T19:00:27.453Z",
+      "currency": 3,
+      "buy": "31.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 166,
+    "fields": {
+      "created": "2023-04-07T19:00:27.456Z",
+      "currency": 3,
+      "buy": "35.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 167,
+    "fields": {
+      "created": "2023-04-07T19:00:27.458Z",
+      "currency": 2,
+      "buy": "32.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 168,
+    "fields": {
+      "created": "2023-04-07T19:00:27.460Z",
+      "currency": 3,
+      "buy": "37.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 169,
+    "fields": {
+      "created": "2023-04-07T19:00:27.462Z",
+      "currency": 1,
+      "buy": "33.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 170,
+    "fields": {
+      "created": "2023-04-07T19:00:27.464Z",
+      "currency": 4,
+      "buy": "38.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 171,
+    "fields": {
+      "created": "2023-04-07T19:00:27.467Z",
+      "currency": 5,
+      "buy": "34.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 172,
+    "fields": {
+      "created": "2023-04-07T19:00:27.469Z",
+      "currency": 1,
+      "buy": "32.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 173,
+    "fields": {
+      "created": "2023-04-07T19:00:27.471Z",
+      "currency": 2,
+      "buy": "37.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 174,
+    "fields": {
+      "created": "2023-04-07T19:00:27.475Z",
+      "currency": 4,
+      "buy": "31.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 175,
+    "fields": {
+      "created": "2023-04-07T19:00:27.477Z",
+      "currency": 1,
+      "buy": "31.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 176,
+    "fields": {
+      "created": "2023-04-07T19:00:27.480Z",
+      "currency": 3,
+      "buy": "38.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 177,
+    "fields": {
+      "created": "2023-04-07T19:00:27.482Z",
+      "currency": 5,
+      "buy": "34.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 178,
+    "fields": {
+      "created": "2023-04-07T19:00:27.485Z",
+      "currency": 3,
+      "buy": "36.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 179,
+    "fields": {
+      "created": "2023-04-07T19:00:27.487Z",
+      "currency": 2,
+      "buy": "32.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 180,
+    "fields": {
+      "created": "2023-04-07T19:00:27.490Z",
+      "currency": 5,
+      "buy": "31.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 181,
+    "fields": {
+      "created": "2023-04-07T19:00:27.493Z",
+      "currency": 3,
+      "buy": "39.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 182,
+    "fields": {
+      "created": "2023-04-07T19:00:27.495Z",
+      "currency": 3,
+      "buy": "31.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 183,
+    "fields": {
+      "created": "2023-04-07T19:00:27.498Z",
+      "currency": 4,
+      "buy": "40.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 184,
+    "fields": {
+      "created": "2023-04-07T19:00:27.500Z",
+      "currency": 2,
+      "buy": "31.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 185,
+    "fields": {
+      "created": "2023-04-07T19:00:27.503Z",
+      "currency": 1,
+      "buy": "38.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 186,
+    "fields": {
+      "created": "2023-04-07T19:00:27.506Z",
+      "currency": 5,
+      "buy": "31.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 187,
+    "fields": {
+      "created": "2023-04-07T19:00:27.509Z",
+      "currency": 3,
+      "buy": "37.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 188,
+    "fields": {
+      "created": "2023-04-07T19:00:27.511Z",
+      "currency": 4,
+      "buy": "39.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 189,
+    "fields": {
+      "created": "2023-04-07T19:00:27.514Z",
+      "currency": 3,
+      "buy": "33.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 190,
+    "fields": {
+      "created": "2023-04-07T19:00:27.516Z",
+      "currency": 5,
+      "buy": "34.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 191,
+    "fields": {
+      "created": "2023-04-07T19:00:27.519Z",
+      "currency": 4,
+      "buy": "34.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 192,
+    "fields": {
+      "created": "2023-04-07T19:00:27.521Z",
+      "currency": 5,
+      "buy": "33.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 193,
+    "fields": {
+      "created": "2023-04-07T19:00:27.524Z",
+      "currency": 3,
+      "buy": "31.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 194,
+    "fields": {
+      "created": "2023-04-07T19:00:27.527Z",
+      "currency": 4,
+      "buy": "36.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 195,
+    "fields": {
+      "created": "2023-04-07T19:00:27.530Z",
+      "currency": 5,
+      "buy": "35.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 196,
+    "fields": {
+      "created": "2023-04-07T19:00:27.532Z",
+      "currency": 1,
+      "buy": "36.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 197,
+    "fields": {
+      "created": "2023-04-07T19:00:27.535Z",
+      "currency": 2,
+      "buy": "31.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 198,
+    "fields": {
+      "created": "2023-04-07T19:00:27.537Z",
+      "currency": 2,
+      "buy": "32.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 199,
+    "fields": {
+      "created": "2023-04-07T19:00:27.540Z",
+      "currency": 2,
+      "buy": "40.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 200,
+    "fields": {
+      "created": "2023-04-07T19:00:27.543Z",
+      "currency": 3,
+      "buy": "33.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 201,
+    "fields": {
+      "created": "2023-04-07T19:00:27.545Z",
+      "currency": 2,
+      "buy": "36.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 202,
+    "fields": {
+      "created": "2023-04-07T19:00:27.548Z",
+      "currency": 1,
+      "buy": "35.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 203,
+    "fields": {
+      "created": "2023-04-07T19:00:27.551Z",
+      "currency": 5,
+      "buy": "39.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 204,
+    "fields": {
+      "created": "2023-04-07T19:00:27.553Z",
+      "currency": 2,
+      "buy": "37.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 205,
+    "fields": {
+      "created": "2023-04-07T19:00:27.556Z",
+      "currency": 2,
+      "buy": "39.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 206,
+    "fields": {
+      "created": "2023-04-07T19:00:27.558Z",
+      "currency": 4,
+      "buy": "37.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 207,
+    "fields": {
+      "created": "2023-04-07T19:00:27.561Z",
+      "currency": 1,
+      "buy": "36.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 208,
+    "fields": {
+      "created": "2023-04-07T19:00:27.564Z",
+      "currency": 5,
+      "buy": "32.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 209,
+    "fields": {
+      "created": "2023-04-07T19:00:27.566Z",
+      "currency": 4,
+      "buy": "33.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 210,
+    "fields": {
+      "created": "2023-04-07T19:00:27.569Z",
+      "currency": 2,
+      "buy": "32.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 211,
+    "fields": {
+      "created": "2023-04-07T19:00:27.571Z",
+      "currency": 1,
+      "buy": "33.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 212,
+    "fields": {
+      "created": "2023-04-07T19:00:27.574Z",
+      "currency": 5,
+      "buy": "30.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 213,
+    "fields": {
+      "created": "2023-04-07T19:00:27.577Z",
+      "currency": 5,
+      "buy": "38.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 214,
+    "fields": {
+      "created": "2023-04-07T19:00:27.580Z",
+      "currency": 4,
+      "buy": "31.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 215,
+    "fields": {
+      "created": "2023-04-07T19:00:27.582Z",
+      "currency": 1,
+      "buy": "34.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 216,
+    "fields": {
+      "created": "2023-04-07T19:00:27.585Z",
+      "currency": 5,
+      "buy": "31.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 217,
+    "fields": {
+      "created": "2023-04-07T19:00:27.588Z",
+      "currency": 3,
+      "buy": "34.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 218,
+    "fields": {
+      "created": "2023-04-07T19:00:27.590Z",
+      "currency": 4,
+      "buy": "37.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 219,
+    "fields": {
+      "created": "2023-04-07T19:00:27.593Z",
+      "currency": 4,
+      "buy": "31.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 220,
+    "fields": {
+      "created": "2023-04-07T19:00:27.595Z",
+      "currency": 5,
+      "buy": "30.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 221,
+    "fields": {
+      "created": "2023-04-07T19:00:27.598Z",
+      "currency": 4,
+      "buy": "36.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 222,
+    "fields": {
+      "created": "2023-04-07T19:00:27.601Z",
+      "currency": 2,
+      "buy": "31.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 223,
+    "fields": {
+      "created": "2023-04-07T19:00:27.603Z",
+      "currency": 4,
+      "buy": "33.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 224,
+    "fields": {
+      "created": "2023-04-07T19:00:27.605Z",
+      "currency": 3,
+      "buy": "36.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 225,
+    "fields": {
+      "created": "2023-04-07T19:00:27.608Z",
+      "currency": 1,
+      "buy": "32.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 226,
+    "fields": {
+      "created": "2023-04-07T19:00:27.610Z",
+      "currency": 2,
+      "buy": "36.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 227,
+    "fields": {
+      "created": "2023-04-07T19:00:27.612Z",
+      "currency": 3,
+      "buy": "33.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 228,
+    "fields": {
+      "created": "2023-04-07T19:00:27.615Z",
+      "currency": 3,
+      "buy": "30.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 229,
+    "fields": {
+      "created": "2023-04-07T19:00:27.617Z",
+      "currency": 5,
+      "buy": "40.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 230,
+    "fields": {
+      "created": "2023-04-07T19:00:27.620Z",
+      "currency": 5,
+      "buy": "33.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 231,
+    "fields": {
+      "created": "2023-04-07T19:00:27.622Z",
+      "currency": 3,
+      "buy": "36.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 232,
+    "fields": {
+      "created": "2023-04-07T19:00:27.625Z",
+      "currency": 4,
+      "buy": "32.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 233,
+    "fields": {
+      "created": "2023-04-07T19:00:27.628Z",
+      "currency": 2,
+      "buy": "30.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 234,
+    "fields": {
+      "created": "2023-04-07T19:00:27.631Z",
+      "currency": 1,
+      "buy": "33.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 235,
+    "fields": {
+      "created": "2023-04-07T19:00:27.633Z",
+      "currency": 3,
+      "buy": "30.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 236,
+    "fields": {
+      "created": "2023-04-07T19:00:27.636Z",
+      "currency": 3,
+      "buy": "34.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 237,
+    "fields": {
+      "created": "2023-04-07T19:00:27.639Z",
+      "currency": 5,
+      "buy": "40.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 238,
+    "fields": {
+      "created": "2023-04-07T19:00:27.641Z",
+      "currency": 4,
+      "buy": "35.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 239,
+    "fields": {
+      "created": "2023-04-07T19:00:27.644Z",
+      "currency": 1,
+      "buy": "34.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 240,
+    "fields": {
+      "created": "2023-04-07T19:00:27.646Z",
+      "currency": 4,
+      "buy": "34.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 241,
+    "fields": {
+      "created": "2023-04-07T19:00:27.648Z",
+      "currency": 3,
+      "buy": "39.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 242,
+    "fields": {
+      "created": "2023-04-07T19:00:27.651Z",
+      "currency": 3,
+      "buy": "33.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 243,
+    "fields": {
+      "created": "2023-04-07T19:00:27.654Z",
+      "currency": 1,
+      "buy": "35.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 244,
+    "fields": {
+      "created": "2023-04-07T19:00:27.657Z",
+      "currency": 1,
+      "buy": "31.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 245,
+    "fields": {
+      "created": "2023-04-07T19:00:27.659Z",
+      "currency": 1,
+      "buy": "38.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 246,
+    "fields": {
+      "created": "2023-04-07T19:00:27.661Z",
+      "currency": 5,
+      "buy": "31.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 247,
+    "fields": {
+      "created": "2023-04-07T19:00:27.664Z",
+      "currency": 5,
+      "buy": "30.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 248,
+    "fields": {
+      "created": "2023-04-07T19:00:27.666Z",
+      "currency": 5,
+      "buy": "34.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 249,
+    "fields": {
+      "created": "2023-04-07T19:00:27.669Z",
+      "currency": 1,
+      "buy": "39.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 250,
+    "fields": {
+      "created": "2023-04-07T19:00:27.672Z",
+      "currency": 3,
+      "buy": "32.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 251,
+    "fields": {
+      "created": "2023-04-07T19:00:27.674Z",
+      "currency": 1,
+      "buy": "34.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 252,
+    "fields": {
+      "created": "2023-04-07T19:00:27.677Z",
+      "currency": 2,
+      "buy": "37.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 253,
+    "fields": {
+      "created": "2023-04-07T19:00:27.679Z",
+      "currency": 2,
+      "buy": "30.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 254,
+    "fields": {
+      "created": "2023-04-07T19:00:27.682Z",
+      "currency": 5,
+      "buy": "35.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 255,
+    "fields": {
+      "created": "2023-04-07T19:00:27.685Z",
+      "currency": 4,
+      "buy": "31.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 256,
+    "fields": {
+      "created": "2023-04-07T19:00:27.688Z",
+      "currency": 2,
+      "buy": "34.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 257,
+    "fields": {
+      "created": "2023-04-07T19:00:27.690Z",
+      "currency": 1,
+      "buy": "37.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 258,
+    "fields": {
+      "created": "2023-04-07T19:00:27.693Z",
+      "currency": 1,
+      "buy": "39.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 259,
+    "fields": {
+      "created": "2023-04-07T19:00:27.696Z",
+      "currency": 4,
+      "buy": "39.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 260,
+    "fields": {
+      "created": "2023-04-07T19:00:27.699Z",
+      "currency": 2,
+      "buy": "32.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 261,
+    "fields": {
+      "created": "2023-04-07T19:00:27.701Z",
+      "currency": 3,
+      "buy": "40.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 262,
+    "fields": {
+      "created": "2023-04-07T19:00:27.704Z",
+      "currency": 3,
+      "buy": "39.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 263,
+    "fields": {
+      "created": "2023-04-07T19:00:27.707Z",
+      "currency": 5,
+      "buy": "30.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 264,
+    "fields": {
+      "created": "2023-04-07T19:00:27.709Z",
+      "currency": 1,
+      "buy": "35.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 265,
+    "fields": {
+      "created": "2023-04-07T19:00:27.712Z",
+      "currency": 3,
+      "buy": "34.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 266,
+    "fields": {
+      "created": "2023-04-07T19:00:27.714Z",
+      "currency": 1,
+      "buy": "37.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 267,
+    "fields": {
+      "created": "2023-04-07T19:00:27.717Z",
+      "currency": 3,
+      "buy": "39.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 268,
+    "fields": {
+      "created": "2023-04-07T19:00:27.719Z",
+      "currency": 4,
+      "buy": "38.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 269,
+    "fields": {
+      "created": "2023-04-07T19:00:27.722Z",
+      "currency": 1,
+      "buy": "35.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 270,
+    "fields": {
+      "created": "2023-04-07T19:00:27.725Z",
+      "currency": 1,
+      "buy": "31.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 271,
+    "fields": {
+      "created": "2023-04-07T19:00:27.727Z",
+      "currency": 1,
+      "buy": "40.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 272,
+    "fields": {
+      "created": "2023-04-07T19:00:27.730Z",
+      "currency": 3,
+      "buy": "32.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 273,
+    "fields": {
+      "created": "2023-04-07T19:00:27.733Z",
+      "currency": 2,
+      "buy": "32.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 274,
+    "fields": {
+      "created": "2023-04-07T19:00:27.735Z",
+      "currency": 3,
+      "buy": "30.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 275,
+    "fields": {
+      "created": "2023-04-07T19:00:27.738Z",
+      "currency": 4,
+      "buy": "36.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 276,
+    "fields": {
+      "created": "2023-04-07T19:00:27.741Z",
+      "currency": 3,
+      "buy": "33.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 277,
+    "fields": {
+      "created": "2023-04-07T19:00:27.744Z",
+      "currency": 2,
+      "buy": "38.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 278,
+    "fields": {
+      "created": "2023-04-07T19:00:27.747Z",
+      "currency": 1,
+      "buy": "40.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 279,
+    "fields": {
+      "created": "2023-04-07T19:00:27.749Z",
+      "currency": 3,
+      "buy": "38.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 280,
+    "fields": {
+      "created": "2023-04-07T19:00:27.752Z",
+      "currency": 5,
+      "buy": "36.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 281,
+    "fields": {
+      "created": "2023-04-07T19:00:27.754Z",
+      "currency": 3,
+      "buy": "39.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 282,
+    "fields": {
+      "created": "2023-04-07T19:00:27.757Z",
+      "currency": 2,
+      "buy": "37.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 283,
+    "fields": {
+      "created": "2023-04-07T19:00:27.760Z",
+      "currency": 4,
+      "buy": "32.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 284,
+    "fields": {
+      "created": "2023-04-07T19:00:27.762Z",
+      "currency": 3,
+      "buy": "40.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 285,
+    "fields": {
+      "created": "2023-04-07T19:00:27.764Z",
+      "currency": 3,
+      "buy": "39.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 286,
+    "fields": {
+      "created": "2023-04-07T19:00:27.766Z",
+      "currency": 5,
+      "buy": "33.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 287,
+    "fields": {
+      "created": "2023-04-07T19:00:27.768Z",
+      "currency": 3,
+      "buy": "34.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 288,
+    "fields": {
+      "created": "2023-04-07T19:00:27.770Z",
+      "currency": 5,
+      "buy": "35.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 289,
+    "fields": {
+      "created": "2023-04-07T19:00:27.772Z",
+      "currency": 4,
+      "buy": "39.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 290,
+    "fields": {
+      "created": "2023-04-07T19:00:27.774Z",
+      "currency": 2,
+      "buy": "37.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 291,
+    "fields": {
+      "created": "2023-04-07T19:00:27.777Z",
+      "currency": 1,
+      "buy": "36.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 292,
+    "fields": {
+      "created": "2023-04-07T19:00:27.779Z",
+      "currency": 3,
+      "buy": "39.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 293,
+    "fields": {
+      "created": "2023-04-07T19:00:27.781Z",
+      "currency": 3,
+      "buy": "31.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 294,
+    "fields": {
+      "created": "2023-04-07T19:00:27.784Z",
+      "currency": 3,
+      "buy": "30.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 295,
+    "fields": {
+      "created": "2023-04-07T19:00:27.786Z",
+      "currency": 3,
+      "buy": "34.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 296,
+    "fields": {
+      "created": "2023-04-07T19:00:27.789Z",
+      "currency": 2,
+      "buy": "39.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 297,
+    "fields": {
+      "created": "2023-04-07T19:00:27.791Z",
+      "currency": 1,
+      "buy": "33.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 298,
+    "fields": {
+      "created": "2023-04-07T19:00:27.794Z",
+      "currency": 1,
+      "buy": "35.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 299,
+    "fields": {
+      "created": "2023-04-07T19:00:27.796Z",
+      "currency": 3,
+      "buy": "35.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 300,
+    "fields": {
+      "created": "2023-04-07T19:00:27.799Z",
+      "currency": 1,
+      "buy": "35.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 301,
+    "fields": {
+      "created": "2023-04-07T19:00:27.802Z",
+      "currency": 4,
+      "buy": "32.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 302,
+    "fields": {
+      "created": "2023-04-07T19:00:27.805Z",
+      "currency": 3,
+      "buy": "31.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 303,
+    "fields": {
+      "created": "2023-04-07T19:00:27.807Z",
+      "currency": 4,
+      "buy": "32.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 304,
+    "fields": {
+      "created": "2023-04-07T19:00:27.810Z",
+      "currency": 2,
+      "buy": "37.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 305,
+    "fields": {
+      "created": "2023-04-07T19:00:27.813Z",
+      "currency": 1,
+      "buy": "39.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 306,
+    "fields": {
+      "created": "2023-04-07T19:00:27.815Z",
+      "currency": 5,
+      "buy": "40.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 307,
+    "fields": {
+      "created": "2023-04-07T19:00:27.818Z",
+      "currency": 5,
+      "buy": "37.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 308,
+    "fields": {
+      "created": "2023-04-07T19:00:27.820Z",
+      "currency": 4,
+      "buy": "35.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 309,
+    "fields": {
+      "created": "2023-04-07T19:00:27.823Z",
+      "currency": 1,
+      "buy": "34.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 310,
+    "fields": {
+      "created": "2023-04-07T19:00:27.826Z",
+      "currency": 2,
+      "buy": "36.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 311,
+    "fields": {
+      "created": "2023-04-07T19:00:27.829Z",
+      "currency": 5,
+      "buy": "32.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 312,
+    "fields": {
+      "created": "2023-04-07T19:00:27.831Z",
+      "currency": 1,
+      "buy": "33.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 313,
+    "fields": {
+      "created": "2023-04-07T19:00:27.834Z",
+      "currency": 1,
+      "buy": "33.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 314,
+    "fields": {
+      "created": "2023-04-07T19:00:27.836Z",
+      "currency": 5,
+      "buy": "30.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 315,
+    "fields": {
+      "created": "2023-04-07T19:00:27.839Z",
+      "currency": 4,
+      "buy": "35.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 316,
+    "fields": {
+      "created": "2023-04-07T19:00:27.842Z",
+      "currency": 5,
+      "buy": "38.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 317,
+    "fields": {
+      "created": "2023-04-07T19:00:27.844Z",
+      "currency": 4,
+      "buy": "30.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 318,
+    "fields": {
+      "created": "2023-04-07T19:00:27.847Z",
+      "currency": 1,
+      "buy": "32.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 319,
+    "fields": {
+      "created": "2023-04-07T19:00:27.849Z",
+      "currency": 4,
+      "buy": "40.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 320,
+    "fields": {
+      "created": "2023-04-07T19:00:27.852Z",
+      "currency": 4,
+      "buy": "31.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 321,
+    "fields": {
+      "created": "2023-04-07T19:00:27.854Z",
+      "currency": 1,
+      "buy": "37.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 322,
+    "fields": {
+      "created": "2023-04-07T19:00:27.857Z",
+      "currency": 5,
+      "buy": "35.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 323,
+    "fields": {
+      "created": "2023-04-07T19:00:27.860Z",
+      "currency": 5,
+      "buy": "33.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 324,
+    "fields": {
+      "created": "2023-04-07T19:00:27.864Z",
+      "currency": 5,
+      "buy": "31.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 325,
+    "fields": {
+      "created": "2023-04-07T19:00:27.866Z",
+      "currency": 4,
+      "buy": "40.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 326,
+    "fields": {
+      "created": "2023-04-07T19:00:27.869Z",
+      "currency": 5,
+      "buy": "36.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 327,
+    "fields": {
+      "created": "2023-04-07T19:00:27.871Z",
+      "currency": 2,
+      "buy": "30.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 328,
+    "fields": {
+      "created": "2023-04-07T19:00:27.874Z",
+      "currency": 3,
+      "buy": "38.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 329,
+    "fields": {
+      "created": "2023-04-07T19:00:27.877Z",
+      "currency": 5,
+      "buy": "32.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 330,
+    "fields": {
+      "created": "2023-04-07T19:00:27.879Z",
+      "currency": 2,
+      "buy": "30.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 331,
+    "fields": {
+      "created": "2023-04-07T19:00:27.882Z",
+      "currency": 4,
+      "buy": "33.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 332,
+    "fields": {
+      "created": "2023-04-07T19:00:27.885Z",
+      "currency": 1,
+      "buy": "36.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 333,
+    "fields": {
+      "created": "2023-04-07T19:00:27.888Z",
+      "currency": 2,
+      "buy": "40.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 334,
+    "fields": {
+      "created": "2023-04-07T19:00:27.891Z",
+      "currency": 2,
+      "buy": "30.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 335,
+    "fields": {
+      "created": "2023-04-07T19:00:27.893Z",
+      "currency": 4,
+      "buy": "38.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 336,
+    "fields": {
+      "created": "2023-04-07T19:00:27.896Z",
+      "currency": 5,
+      "buy": "31.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 337,
+    "fields": {
+      "created": "2023-04-07T19:00:27.898Z",
+      "currency": 4,
+      "buy": "33.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 338,
+    "fields": {
+      "created": "2023-04-07T19:00:27.901Z",
+      "currency": 4,
+      "buy": "31.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 339,
+    "fields": {
+      "created": "2023-04-07T19:00:27.904Z",
+      "currency": 4,
+      "buy": "32.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 340,
+    "fields": {
+      "created": "2023-04-07T19:00:27.907Z",
+      "currency": 4,
+      "buy": "34.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 341,
+    "fields": {
+      "created": "2023-04-07T19:00:27.910Z",
+      "currency": 1,
+      "buy": "39.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 342,
+    "fields": {
+      "created": "2023-04-07T19:00:27.913Z",
+      "currency": 3,
+      "buy": "34.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 343,
+    "fields": {
+      "created": "2023-04-07T19:00:27.915Z",
+      "currency": 5,
+      "buy": "37.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 344,
+    "fields": {
+      "created": "2023-04-07T19:00:27.918Z",
+      "currency": 5,
+      "buy": "37.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 345,
+    "fields": {
+      "created": "2023-04-07T19:00:27.921Z",
+      "currency": 4,
+      "buy": "39.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 346,
+    "fields": {
+      "created": "2023-04-07T19:00:27.924Z",
+      "currency": 1,
+      "buy": "35.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 347,
+    "fields": {
+      "created": "2023-04-07T19:00:27.926Z",
+      "currency": 1,
+      "buy": "33.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 348,
+    "fields": {
+      "created": "2023-04-07T19:00:27.928Z",
+      "currency": 4,
+      "buy": "37.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 349,
+    "fields": {
+      "created": "2023-04-07T19:00:27.931Z",
+      "currency": 5,
+      "buy": "33.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 350,
+    "fields": {
+      "created": "2023-04-07T19:00:27.934Z",
+      "currency": 3,
+      "buy": "39.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 351,
+    "fields": {
+      "created": "2023-04-07T19:00:27.936Z",
+      "currency": 1,
+      "buy": "30.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 352,
+    "fields": {
+      "created": "2023-04-07T19:00:27.938Z",
+      "currency": 5,
+      "buy": "30.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 353,
+    "fields": {
+      "created": "2023-04-07T19:00:27.941Z",
+      "currency": 4,
+      "buy": "34.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 354,
+    "fields": {
+      "created": "2023-04-07T19:00:27.943Z",
+      "currency": 1,
+      "buy": "32.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 355,
+    "fields": {
+      "created": "2023-04-07T19:00:27.946Z",
+      "currency": 4,
+      "buy": "38.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 356,
+    "fields": {
+      "created": "2023-04-07T19:00:27.948Z",
+      "currency": 1,
+      "buy": "38.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 357,
+    "fields": {
+      "created": "2023-04-07T19:00:27.951Z",
+      "currency": 3,
+      "buy": "34.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 358,
+    "fields": {
+      "created": "2023-04-07T19:00:27.954Z",
+      "currency": 3,
+      "buy": "30.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 359,
+    "fields": {
+      "created": "2023-04-07T19:00:27.957Z",
+      "currency": 2,
+      "buy": "38.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 360,
+    "fields": {
+      "created": "2023-04-07T19:00:27.959Z",
+      "currency": 4,
+      "buy": "35.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 361,
+    "fields": {
+      "created": "2023-04-07T19:00:27.962Z",
+      "currency": 2,
+      "buy": "33.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 362,
+    "fields": {
+      "created": "2023-04-07T19:00:27.964Z",
+      "currency": 3,
+      "buy": "36.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 363,
+    "fields": {
+      "created": "2023-04-07T19:00:27.967Z",
+      "currency": 1,
+      "buy": "39.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 364,
+    "fields": {
+      "created": "2023-04-07T19:00:27.969Z",
+      "currency": 5,
+      "buy": "30.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 365,
+    "fields": {
+      "created": "2023-04-07T19:00:27.972Z",
+      "currency": 2,
+      "buy": "35.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 366,
+    "fields": {
+      "created": "2023-04-07T19:00:27.975Z",
+      "currency": 3,
+      "buy": "40.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 367,
+    "fields": {
+      "created": "2023-04-07T19:00:27.977Z",
+      "currency": 2,
+      "buy": "34.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 368,
+    "fields": {
+      "created": "2023-04-07T19:00:27.980Z",
+      "currency": 5,
+      "buy": "36.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 369,
+    "fields": {
+      "created": "2023-04-07T19:00:27.983Z",
+      "currency": 5,
+      "buy": "37.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 370,
+    "fields": {
+      "created": "2023-04-07T19:00:27.985Z",
+      "currency": 5,
+      "buy": "30.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 371,
+    "fields": {
+      "created": "2023-04-07T19:00:27.988Z",
+      "currency": 2,
+      "buy": "31.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 372,
+    "fields": {
+      "created": "2023-04-07T19:00:27.990Z",
+      "currency": 3,
+      "buy": "38.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 373,
+    "fields": {
+      "created": "2023-04-07T19:00:27.993Z",
+      "currency": 3,
+      "buy": "33.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 374,
+    "fields": {
+      "created": "2023-04-07T19:00:27.996Z",
+      "currency": 1,
+      "buy": "35.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 375,
+    "fields": {
+      "created": "2023-04-07T19:00:27.999Z",
+      "currency": 4,
+      "buy": "40.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 376,
+    "fields": {
+      "created": "2023-04-07T19:00:28.002Z",
+      "currency": 5,
+      "buy": "31.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 377,
+    "fields": {
+      "created": "2023-04-07T19:00:28.005Z",
+      "currency": 4,
+      "buy": "33.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 378,
+    "fields": {
+      "created": "2023-04-07T19:00:28.007Z",
+      "currency": 4,
+      "buy": "40.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 379,
+    "fields": {
+      "created": "2023-04-07T19:00:28.010Z",
+      "currency": 1,
+      "buy": "38.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 380,
+    "fields": {
+      "created": "2023-04-07T19:00:28.013Z",
+      "currency": 4,
+      "buy": "32.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 381,
+    "fields": {
+      "created": "2023-04-07T19:00:28.015Z",
+      "currency": 2,
+      "buy": "36.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 382,
+    "fields": {
+      "created": "2023-04-07T19:00:28.018Z",
+      "currency": 3,
+      "buy": "32.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 383,
+    "fields": {
+      "created": "2023-04-07T19:00:28.021Z",
+      "currency": 1,
+      "buy": "34.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 384,
+    "fields": {
+      "created": "2023-04-07T19:00:28.023Z",
+      "currency": 1,
+      "buy": "35.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 385,
+    "fields": {
+      "created": "2023-04-07T19:00:28.026Z",
+      "currency": 4,
+      "buy": "35.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 386,
+    "fields": {
+      "created": "2023-04-07T19:00:28.029Z",
+      "currency": 5,
+      "buy": "39.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 387,
+    "fields": {
+      "created": "2023-04-07T19:00:28.031Z",
+      "currency": 3,
+      "buy": "38.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 388,
+    "fields": {
+      "created": "2023-04-07T19:00:28.034Z",
+      "currency": 2,
+      "buy": "39.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 389,
+    "fields": {
+      "created": "2023-04-07T19:00:28.036Z",
+      "currency": 4,
+      "buy": "40.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 390,
+    "fields": {
+      "created": "2023-04-07T19:00:28.039Z",
+      "currency": 5,
+      "buy": "31.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 391,
+    "fields": {
+      "created": "2023-04-07T19:00:28.042Z",
+      "currency": 4,
+      "buy": "38.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 392,
+    "fields": {
+      "created": "2023-04-07T19:00:28.044Z",
+      "currency": 3,
+      "buy": "30.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 393,
+    "fields": {
+      "created": "2023-04-07T19:00:28.047Z",
+      "currency": 2,
+      "buy": "39.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 394,
+    "fields": {
+      "created": "2023-04-07T19:00:28.049Z",
+      "currency": 2,
+      "buy": "39.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 395,
+    "fields": {
+      "created": "2023-04-07T19:00:28.051Z",
+      "currency": 4,
+      "buy": "33.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 396,
+    "fields": {
+      "created": "2023-04-07T19:00:28.054Z",
+      "currency": 3,
+      "buy": "30.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 397,
+    "fields": {
+      "created": "2023-04-07T19:00:28.056Z",
+      "currency": 3,
+      "buy": "30.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 398,
+    "fields": {
+      "created": "2023-04-07T19:00:28.058Z",
+      "currency": 5,
+      "buy": "39.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 399,
+    "fields": {
+      "created": "2023-04-07T19:00:28.061Z",
+      "currency": 1,
+      "buy": "31.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 400,
+    "fields": {
+      "created": "2023-04-07T19:00:28.063Z",
+      "currency": 4,
+      "buy": "31.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 401,
+    "fields": {
+      "created": "2023-04-07T19:00:28.065Z",
+      "currency": 5,
+      "buy": "37.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 402,
+    "fields": {
+      "created": "2023-04-07T19:00:28.068Z",
+      "currency": 5,
+      "buy": "39.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 403,
+    "fields": {
+      "created": "2023-04-07T19:00:28.070Z",
+      "currency": 2,
+      "buy": "31.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 404,
+    "fields": {
+      "created": "2023-04-07T19:00:28.072Z",
+      "currency": 4,
+      "buy": "36.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 405,
+    "fields": {
+      "created": "2023-04-07T19:00:28.075Z",
+      "currency": 1,
+      "buy": "32.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 406,
+    "fields": {
+      "created": "2023-04-07T19:00:28.077Z",
+      "currency": 1,
+      "buy": "39.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 407,
+    "fields": {
+      "created": "2023-04-07T19:00:28.079Z",
+      "currency": 1,
+      "buy": "32.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 408,
+    "fields": {
+      "created": "2023-04-07T19:00:28.081Z",
+      "currency": 3,
+      "buy": "33.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 409,
+    "fields": {
+      "created": "2023-04-07T19:00:28.084Z",
+      "currency": 1,
+      "buy": "39.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 410,
+    "fields": {
+      "created": "2023-04-07T19:00:28.086Z",
+      "currency": 1,
+      "buy": "32.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 411,
+    "fields": {
+      "created": "2023-04-07T19:00:28.088Z",
+      "currency": 4,
+      "buy": "34.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 412,
+    "fields": {
+      "created": "2023-04-07T19:00:28.091Z",
+      "currency": 5,
+      "buy": "39.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 413,
+    "fields": {
+      "created": "2023-04-07T19:00:28.093Z",
+      "currency": 3,
+      "buy": "35.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 414,
+    "fields": {
+      "created": "2023-04-07T19:00:28.095Z",
+      "currency": 5,
+      "buy": "36.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 415,
+    "fields": {
+      "created": "2023-04-07T19:00:28.098Z",
+      "currency": 1,
+      "buy": "34.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 416,
+    "fields": {
+      "created": "2023-04-07T19:00:28.100Z",
+      "currency": 5,
+      "buy": "37.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 417,
+    "fields": {
+      "created": "2023-04-07T19:00:28.103Z",
+      "currency": 3,
+      "buy": "34.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 418,
+    "fields": {
+      "created": "2023-04-07T19:00:28.105Z",
+      "currency": 4,
+      "buy": "30.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 419,
+    "fields": {
+      "created": "2023-04-07T19:00:28.107Z",
+      "currency": 1,
+      "buy": "36.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 420,
+    "fields": {
+      "created": "2023-04-07T19:00:28.110Z",
+      "currency": 2,
+      "buy": "40.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 421,
+    "fields": {
+      "created": "2023-04-07T19:00:28.113Z",
+      "currency": 3,
+      "buy": "33.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 422,
+    "fields": {
+      "created": "2023-04-07T19:00:28.115Z",
+      "currency": 5,
+      "buy": "31.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 423,
+    "fields": {
+      "created": "2023-04-07T19:00:28.118Z",
+      "currency": 5,
+      "buy": "35.00",
+      "sale": "39.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 424,
+    "fields": {
+      "created": "2023-04-07T19:00:28.121Z",
+      "currency": 1,
+      "buy": "30.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 425,
+    "fields": {
+      "created": "2023-04-07T19:00:28.124Z",
+      "currency": 1,
+      "buy": "31.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 426,
+    "fields": {
+      "created": "2023-04-07T19:00:28.127Z",
+      "currency": 2,
+      "buy": "34.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 427,
+    "fields": {
+      "created": "2023-04-07T19:00:28.130Z",
+      "currency": 1,
+      "buy": "40.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 428,
+    "fields": {
+      "created": "2023-04-07T19:00:28.132Z",
+      "currency": 5,
+      "buy": "37.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 429,
+    "fields": {
+      "created": "2023-04-07T19:00:28.135Z",
+      "currency": 3,
+      "buy": "33.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 430,
+    "fields": {
+      "created": "2023-04-07T19:00:28.137Z",
+      "currency": 5,
+      "buy": "39.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 431,
+    "fields": {
+      "created": "2023-04-07T19:00:28.140Z",
+      "currency": 2,
+      "buy": "31.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 432,
+    "fields": {
+      "created": "2023-04-07T19:00:28.143Z",
+      "currency": 1,
+      "buy": "39.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 433,
+    "fields": {
+      "created": "2023-04-07T19:00:28.146Z",
+      "currency": 3,
+      "buy": "34.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 434,
+    "fields": {
+      "created": "2023-04-07T19:00:28.148Z",
+      "currency": 4,
+      "buy": "30.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 435,
+    "fields": {
+      "created": "2023-04-07T19:00:28.151Z",
+      "currency": 5,
+      "buy": "38.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 436,
+    "fields": {
+      "created": "2023-04-07T19:00:28.154Z",
+      "currency": 2,
+      "buy": "31.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 437,
+    "fields": {
+      "created": "2023-04-07T19:00:28.157Z",
+      "currency": 1,
+      "buy": "39.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 438,
+    "fields": {
+      "created": "2023-04-07T19:00:28.159Z",
+      "currency": 5,
+      "buy": "30.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 439,
+    "fields": {
+      "created": "2023-04-07T19:00:28.162Z",
+      "currency": 1,
+      "buy": "39.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 440,
+    "fields": {
+      "created": "2023-04-07T19:00:28.165Z",
+      "currency": 5,
+      "buy": "34.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 441,
+    "fields": {
+      "created": "2023-04-07T19:00:28.167Z",
+      "currency": 4,
+      "buy": "36.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 442,
+    "fields": {
+      "created": "2023-04-07T19:00:28.170Z",
+      "currency": 1,
+      "buy": "31.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 443,
+    "fields": {
+      "created": "2023-04-07T19:00:28.173Z",
+      "currency": 5,
+      "buy": "37.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 444,
+    "fields": {
+      "created": "2023-04-07T19:00:28.175Z",
+      "currency": 5,
+      "buy": "33.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 445,
+    "fields": {
+      "created": "2023-04-07T19:00:28.178Z",
+      "currency": 3,
+      "buy": "40.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 446,
+    "fields": {
+      "created": "2023-04-07T19:00:28.181Z",
+      "currency": 2,
+      "buy": "36.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 447,
+    "fields": {
+      "created": "2023-04-07T19:00:28.183Z",
+      "currency": 2,
+      "buy": "38.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 448,
+    "fields": {
+      "created": "2023-04-07T19:00:28.186Z",
+      "currency": 1,
+      "buy": "33.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 449,
+    "fields": {
+      "created": "2023-04-07T19:00:28.189Z",
+      "currency": 5,
+      "buy": "30.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 450,
+    "fields": {
+      "created": "2023-04-07T19:00:28.192Z",
+      "currency": 1,
+      "buy": "30.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 451,
+    "fields": {
+      "created": "2023-04-07T19:00:28.195Z",
+      "currency": 4,
+      "buy": "33.00",
+      "sale": "35.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 452,
+    "fields": {
+      "created": "2023-04-07T19:00:28.197Z",
+      "currency": 3,
+      "buy": "30.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 453,
+    "fields": {
+      "created": "2023-04-07T19:00:28.200Z",
+      "currency": 5,
+      "buy": "30.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 454,
+    "fields": {
+      "created": "2023-04-07T19:00:28.203Z",
+      "currency": 2,
+      "buy": "34.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 455,
+    "fields": {
+      "created": "2023-04-07T19:00:28.206Z",
+      "currency": 4,
+      "buy": "36.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 456,
+    "fields": {
+      "created": "2023-04-07T19:00:28.209Z",
+      "currency": 3,
+      "buy": "30.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 457,
+    "fields": {
+      "created": "2023-04-07T19:00:28.212Z",
+      "currency": 5,
+      "buy": "33.00",
+      "sale": "40.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 458,
+    "fields": {
+      "created": "2023-04-07T19:00:28.214Z",
+      "currency": 5,
+      "buy": "32.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 459,
+    "fields": {
+      "created": "2023-04-07T19:00:28.217Z",
+      "currency": 1,
+      "buy": "37.00",
+      "sale": "34.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 460,
+    "fields": {
+      "created": "2023-04-07T19:00:28.219Z",
+      "currency": 1,
+      "buy": "31.00",
+      "sale": "32.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 461,
+    "fields": {
+      "created": "2023-04-07T19:00:28.222Z",
+      "currency": 5,
+      "buy": "35.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 462,
+    "fields": {
+      "created": "2023-04-07T19:00:28.224Z",
+      "currency": 4,
+      "buy": "35.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 463,
+    "fields": {
+      "created": "2023-04-07T19:00:28.227Z",
+      "currency": 5,
+      "buy": "30.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 464,
+    "fields": {
+      "created": "2023-04-07T19:00:28.229Z",
+      "currency": 5,
+      "buy": "31.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 465,
+    "fields": {
+      "created": "2023-04-07T19:00:28.232Z",
+      "currency": 5,
+      "buy": "39.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 466,
+    "fields": {
+      "created": "2023-04-07T19:00:28.234Z",
+      "currency": 5,
+      "buy": "32.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 467,
+    "fields": {
+      "created": "2023-04-07T19:00:28.237Z",
+      "currency": 3,
+      "buy": "36.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 468,
+    "fields": {
+      "created": "2023-04-07T19:00:28.239Z",
+      "currency": 1,
+      "buy": "30.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 469,
+    "fields": {
+      "created": "2023-04-07T19:00:28.242Z",
+      "currency": 2,
+      "buy": "30.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 470,
+    "fields": {
+      "created": "2023-04-07T19:00:28.244Z",
+      "currency": 1,
+      "buy": "38.00",
+      "sale": "36.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 471,
+    "fields": {
+      "created": "2023-04-07T19:00:28.246Z",
+      "currency": 3,
+      "buy": "38.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 472,
+    "fields": {
+      "created": "2023-04-07T19:00:28.249Z",
+      "currency": 1,
+      "buy": "38.00",
+      "sale": "37.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 473,
+    "fields": {
+      "created": "2023-04-07T19:00:28.251Z",
+      "currency": 3,
+      "buy": "40.00",
+      "sale": "30.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 474,
+    "fields": {
+      "created": "2023-04-07T19:00:28.254Z",
+      "currency": 5,
+      "buy": "31.00",
+      "sale": "38.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 475,
+    "fields": {
+      "created": "2023-04-07T19:00:28.256Z",
+      "currency": 2,
+      "buy": "30.00",
+      "sale": "31.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 476,
+    "fields": {
+      "created": "2023-04-07T19:00:28.260Z",
+      "currency": 2,
+      "buy": "34.00",
+      "sale": "33.00",
+      "source": 39
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 477,
+    "fields": {
+      "created": "2023-04-07T19:27:07.929Z",
+      "currency": 2,
+      "buy": "36.63",
+      "sale": "37.52",
+      "source": 36
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 478,
+    "fields": {
+      "created": "2023-04-07T19:27:07.933Z",
+      "currency": 1,
+      "buy": "39.87",
+      "sale": "41.00",
+      "source": 36
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 479,
+    "fields": {
+      "created": "2023-04-14T15:49:50.135Z",
+      "currency": 1,
+      "buy": "40.26",
+      "sale": "42.02",
+      "source": 38
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 480,
+    "fields": {
+      "created": "2023-04-14T15:49:50.206Z",
+      "currency": 1,
+      "buy": "40.45",
+      "sale": "41.60",
+      "source": 37
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 481,
+    "fields": {
+      "created": "2023-04-14T15:49:50.413Z",
+      "currency": 2,
+      "buy": "36.60",
+      "sale": "37.52",
+      "source": 36
+    }
+  },
+  {
+    "model": "currency.rate",
+    "pk": 482,
+    "fields": {
+      "created": "2023-04-14T15:49:50.420Z",
+      "currency": 1,
+      "buy": "40.28",
+      "sale": "41.46",
+      "source": 36
+    }
+  }
+]
