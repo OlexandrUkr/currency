@@ -16,3 +16,9 @@ drf-yasg
 flake8
 flake8-builtins
 flake8-print
+
+#pytest
+pytest
+pytest-django
+pytest-cov
+pytest-mock
