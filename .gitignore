@@ -5,3 +5,4 @@ __pycache__
 celerybeat-schedule.db
 .coverage
 .pytest_cache
+local.py

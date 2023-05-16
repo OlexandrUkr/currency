@@ -11,6 +11,8 @@ requests
 django-filter
 djangorestframework-simplejwt
 drf-yasg
+pymemcache
+gunicorn
 
 #flake8
 flake8
