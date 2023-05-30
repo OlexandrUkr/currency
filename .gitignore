@@ -6,3 +6,4 @@ celerybeat-schedule.db
 .coverage
 .pytest_cache
 local.py
+.env

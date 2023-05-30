@@ -11,8 +11,14 @@ requests
 django-filter
 djangorestframework-simplejwt
 drf-yasg
-pymemcache
+django-environ
+crispy_bootstrap4
+beautifulsoup4
+
+#services
 gunicorn
+psycopg2-binary
+pymemcache
 
 #flake8
 flake8
